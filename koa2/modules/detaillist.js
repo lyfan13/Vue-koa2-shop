@@ -11,8 +11,8 @@ class DetaillistModel {
 
   static async createDetaillist (data) {
     return await Detaillist.create({
-      id: data.id, // 文章标题
-      title: data.title, // 文章作者
+      id: data.id, 
+      title: data.title, 
     })
   }
 

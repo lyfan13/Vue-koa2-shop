@@ -10,11 +10,10 @@ class UserController {
       password: sha1(ctx.request.body.password),
       token: jwt.sign({ hello: ctx.request.body.user }, 'cheisy', { expiresIn: 24 * 60 * 60 * 1 })
     };
-    if (req.user // 文章作者
-      && req.password // 文章内容
+    if (req.user 
+      && req.password 
     ) {
 
-      // 创建文章模型
       let created = await UserModel.createUser(req)
       if (created) {
         ctx.response.status = 200;

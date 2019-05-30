@@ -2,7 +2,7 @@
 const db = require('../config/db');
 // 引入Sequelize对象
 const Sequelize = db.sequelize;
-// 引入上一步的文章数据表模型文件
+// 引入上一步的数据表模型文件
 const User = Sequelize.import('../schema/user');
 // 自动创建表
 User.sync({ force: false });
@@ -17,9 +17,9 @@ class UserModel {
     })
     if(!result){
       await User.create({
-        user: data.user, // 文章作者
-        password: data.password, // 文章内容
-        token: data.token, // 文章内容
+        user: data.user, 
+        password: data.password, 
+        token: data.token, 
       })
       return true 
     }else{

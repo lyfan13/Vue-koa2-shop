@@ -5,6 +5,8 @@
 ## 主要技术栈
 >[vue、vue-router、axios、vuex、vuex-persistedstate(vuex状态持久化)、vant(ui)]
 
+直接运行的话是连接到我的云服务器的地址。
+如果你想连接到本地的koa，修改下各个页面的axios请求url就行了。
 ## Project setup
 ```
 npm install
