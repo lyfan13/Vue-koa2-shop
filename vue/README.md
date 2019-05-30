@@ -1,4 +1,9 @@
 # vueshoptest
+## 效果图如下：
+![首页](http://i1.bvimg.com/689071/dffa86d0c251cc8at.jpg)  ![列表页](http://i1.bvimg.com/689071/289bc0d708bae96dt.jpg)  ![商品详情页](http://i1.bvimg.com/689071/4c13ca0911028f65t.jpg)  ![购物车](http://i1.bvimg.com/689071/a7055142a12e57e9t.jpg)  ![订单](http://i1.bvimg.com/689071/d74b053cc6adf8b4t.jpg)  ![个人中心](http://i1.bvimg.com/689071/5a9016d37b75893ct.jpg)  
+
+## 主要技术栈
+>[vue、vue-router、axios、vuex、vuex-persistedstate(vuex状态持久化)、vant(ui)]
 
 ## Project setup
 ```
@@ -15,15 +20,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Contact me
+![微信](http://i2.bvimg.com/689071/0f7d3464ec0949fdt.jpg)  
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,4 +1,4 @@
-// 引入刚刚在第五点建立连接mysql数据库的db.js文件
+// 引入刚刚建立连接mysql数据库的db.js文件
 const db = require('../config/db');
 // 引入Sequelize对象
 const Sequelize = db.sequelize;

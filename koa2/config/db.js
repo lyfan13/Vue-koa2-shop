@@ -5,12 +5,13 @@ const Op = Sequelize.Op;
 const sequelize = new Sequelize('test', 'vueshop', '123456', {
   host: 'localhost',
   dialect: 'mysql',
-  operatorsAliases: { $like: Op.like },
+  port:3306,
   dialectOptions: {
     supportBigNumbers: true,
     bigNumberStrings: true
   },
-  port:3306,
+  //搜索功能的like
+  operatorsAliases: { $like: Op.like },
   define: {
     //字符集
     charset: 'utf8',
