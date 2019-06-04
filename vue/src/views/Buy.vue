@@ -10,6 +10,7 @@
     <van-swipe
       :autoplay="3000"
       indicator-color="#f60"
+      v-if="changeImgurl"
     >
       <van-swipe-item
         v-for="(id,index) in list"
@@ -232,9 +233,11 @@ export default {
     next(this.getData(to.params.id))
   },
   //第一次挂载后获取数据
+  created () {
+    this.getData(this.$route.params.id)
+  },
   mounted () {
     this.$store.commit('hideBottomBar');
-    this.getData(this.$route.params.id)
   },
   destroyed () {
     this.$store.commit('showBottomBar');
