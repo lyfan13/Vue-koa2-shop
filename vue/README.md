@@ -1,6 +1,7 @@
 # vueshoptest
 ## 效果图如下：
-![首页](http://i1.bvimg.com/689071/dffa86d0c251cc8at.jpg)  ![列表页](http://i1.bvimg.com/689071/289bc0d708bae96dt.jpg)  ![商品详情页](http://i1.bvimg.com/689071/4c13ca0911028f65t.jpg)  ![购物车](http://i1.bvimg.com/689071/a7055142a12e57e9t.jpg)  ![订单](http://i1.bvimg.com/689071/d74b053cc6adf8b4t.jpg)  ![个人中心](http://i1.bvimg.com/689071/5a9016d37b75893ct.jpg)  
+<div align=>
+<img src=http://pskxv51k0.bkt.clouddn.com/home.png width=200>  <img src=http://pskxv51k0.bkt.clouddn.com/detail.png width=200>  <img src=http://pskxv51k0.bkt.clouddn.com/item.png width=200>  <img src=(http://pskxv51k0.bkt.clouddn.com/detail.png)  ![订单](http://pskxv51k0.bkt.clouddn.com/pay.png width=200>  <img src=http://pskxv51k0.bkt.clouddn.com/member.png width=200> </div>
 
 ## 主要技术栈
 >[vue、vue-router、axios、vuex、vuex-persistedstate(vuex状态持久化)、vant(ui)]
@@ -24,6 +25,6 @@ npm run build
 ```
 
 ### Contact me
-![微信](http://i2.bvimg.com/689071/0f7d3464ec0949fdt.jpg)  
+<img src=http://pskxv51k0.bkt.clouddn.com/wx.jpg width=170>
 
 
