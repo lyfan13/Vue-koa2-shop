@@ -20,7 +20,7 @@
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
     "babel-plugin-import": "^1.11.2",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "npm": "^6.9.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
