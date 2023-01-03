@@ -17,8 +17,8 @@
     "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-plugin-import": "^1.11.2",
     "i": "^0.3.6",
     "npm": "^6.9.0",
